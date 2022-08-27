@@ -9,6 +9,7 @@ export default function Card(props) {
                 <div className="info-title">{props.title}</div>
                 <div className="info-date">{props.startDate}&nbsp;-&nbsp;{props.endDate}</div>
                 <p className="info-description">{props.description}</p>
+                <hr/>
             </div>
         </div>
     )
